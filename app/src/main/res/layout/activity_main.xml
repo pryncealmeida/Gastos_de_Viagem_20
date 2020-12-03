@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="16dp"
         android:orientation="vertical">
 
         <EditText
@@ -16,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:layout_marginTop="15dp"
             android:inputType="textPersonName"
             android:hint="@string/distancia" />
 
@@ -25,11 +27,13 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:text="@string/total_de_quilometros" />
+
         <EditText
             android:id="@+id/editText_preco"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:layout_marginTop="15dp"
             android:inputType="textPersonName"
             android:hint="@string/preco" />
 
@@ -45,6 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:layout_marginTop="15dp"
             android:inputType="textPersonName"
             android:hint="Autonomia" />
 
@@ -54,5 +59,34 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:text="@string/kms_por_litro" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:text="@string/gasto_total"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="28sp"
+            android:text="R$ 0"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:background="#36A6A6"
+            android:text="Calcular"
+            android:textSize="16sp"
+
+            />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
