@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:layout_marginTop="15dp"
-            android:inputType="textPersonName"
+            android:inputType="numberDecimal"
             android:hint="@string/distancia" />
 
         <TextView
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:layout_marginTop="15dp"
-            android:inputType="textPersonName"
+            android:inputType="numberDecimal"
             android:hint="@string/preco" />
 
         <TextView
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:layout_marginTop="15dp"
-            android:inputType="textPersonName"
+            android:inputType="numberDecimal"
             android:hint="Autonomia" />
 
         <TextView
