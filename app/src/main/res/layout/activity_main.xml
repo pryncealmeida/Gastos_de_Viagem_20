@@ -84,6 +84,7 @@
             android:layout_marginTop="15dp"
             android:textAlignment="center"
             android:background="#36A6A6"
+            android:textAllCaps="true"
             android:text="Calcular"
             android:textSize="16sp"
 
